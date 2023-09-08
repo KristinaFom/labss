@@ -4,6 +4,8 @@ class Account(obgect):
     self.balance = balance
   def deposit(self, value):
     self.balance += value
+  def withdraw(self, value):
+    self.balance -= value
 
 if __name__ == '__main__':
   acc = Account('a', 100)
